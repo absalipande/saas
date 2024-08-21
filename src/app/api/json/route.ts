@@ -68,6 +68,7 @@ export const POST = async (req: NextRequest) => {
     try {
       // call AI
       const res = `{"name": "Miel"}`
+      
       // validate json
       const validationResult = dynamicSchema.parse(JSON.parse(res));
 
